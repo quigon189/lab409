@@ -27,30 +27,8 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="1"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/home/admin/Изображения/abstract_hexagon_pattern-wallpaper-1366x768.jpg"/>
+					<property name="last-image" type="string" value="/home/user/wallpapper/abstract_hexagon_pattern-wallpaper-1366x768.jpg"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
-        </property>
-        <property name="workspace1" type="empty">
-          <property name="color-style" type="int" value="1"/>
-          <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/images/desktop-base/default"/>
-        </property>
-        <property name="workspace2" type="empty">
-          <property name="color-style" type="int" value="1"/>
-          <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/images/desktop-base/default"/>
-        </property>
-        <property name="workspace3" type="empty">
-          <property name="color-style" type="int" value="1"/>
-          <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/images/desktop-base/default"/>
-        </property>
-      </property>
-      <property name="monitorDVI-I-1" type="empty">
-        <property name="workspace0" type="empty">
-          <property name="color-style" type="int" value="1"/>
-          <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/images/desktop-base/default"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="1"/>
