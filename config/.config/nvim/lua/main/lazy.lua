@@ -47,6 +47,15 @@ require("lazy").setup({
 	{ 'hrsh7th/nvim-cmp' },
 	{ 'onsails/lspkind-nvim' },
 	{
+		"L3MON4D3/LuaSnip",
+		dependencies={ "rafamadriz/friendly-snippets" },
+		version="v2.*",
+		build="make install jsregexp"
+	},
+	{
+		"saadparwaiz1/cmp_luasnip"
+	},
+	{
 		"williamboman/mason.nvim",
 		build = ":MasonUpdate"
 	},
@@ -72,5 +81,8 @@ require("lazy").setup({
     'nvimdev/dashboard-nvim',
     event = 'VimEnter',
     dependencies = { {'nvim-tree/nvim-web-devicons'} }
-  }
+  },
+	{
+		"catppuccin/nvim",
+	}
 })

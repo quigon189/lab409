@@ -12,6 +12,7 @@ require("plugins.telescope")
 require("plugins.bufferline")
 require("plugins.lualine")
 require("plugins.dashboard")
+require("plugins.luasnip")
 require("plugins.other")
 
 -- Добавить
