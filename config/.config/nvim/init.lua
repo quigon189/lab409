@@ -12,12 +12,12 @@ require("plugins.telescope")
 require("plugins.bufferline")
 require("plugins.lualine")
 require("plugins.dashboard")
+require("plugins.transparent")
+require("plugins.web-devicons")
 require("plugins.luasnip")
 require("plugins.other")
 
 -- Добавить
--- dashboard
 -- gitsigns
 -- which-key
 -- toggleterm
--- theme

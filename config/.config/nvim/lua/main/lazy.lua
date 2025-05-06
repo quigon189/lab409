@@ -48,13 +48,11 @@ require("lazy").setup({
 	{ 'onsails/lspkind-nvim' },
 	{
 		"L3MON4D3/LuaSnip",
-		dependencies={ "rafamadriz/friendly-snippets" },
-		version="v2.*",
-		build="make install jsregexp"
+		dependencies = { "rafamadriz/friendly-snippets" },
+		version = "v2.*",
+		build = "make install_jsregexp"
 	},
-	{
-		"saadparwaiz1/cmp_luasnip"
-	},
+	{ 'saadparwaiz1/cmp_luasnip' },
 	{
 		"williamboman/mason.nvim",
 		build = ":MasonUpdate"
@@ -78,11 +76,40 @@ require("lazy").setup({
 		dependencies = { 'nvim-tree/nvim-web-devicons' }
 	},
 	{
-    'nvimdev/dashboard-nvim',
-    event = 'VimEnter',
-    dependencies = { {'nvim-tree/nvim-web-devicons'} }
-  },
+		'nvimdev/dashboard-nvim',
+		event = 'VimEnter',
+		dependencies = { { 'nvim-tree/nvim-web-devicons' } }
+	},
+	{
+		'xiyaowong/transparent.nvim',
+	},
+	{
+		"ray-x/go.nvim",
+		dependencies = { -- optional packages
+			"ray-x/guihua.lua",
+			"neovim/nvim-lspconfig",
+			"nvim-treesitter/nvim-treesitter",
+		},
+		config = function()
+			require("go").setup()
+		end,
+		event = { "CmdlineEnter" },
+		ft = { "go", 'gomod' },
+		build = ':lua require("go.install").update_all_sync()' -- if you need to install/update all binaries
+	},
+	{
+		"folke/tokyonight.nvim",
+		lazy = false,
+		priority = 1000,
+		opts = {},
+	},
 	{
 		"catppuccin/nvim",
+		name = "catppuccin",
+		priority = 1000
+	},
+	{
+		"rose-pine/neovim",
+		name = "rose-pine"
 	}
 })

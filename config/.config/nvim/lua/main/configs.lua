@@ -2,6 +2,8 @@ local opt = vim.opt
 local cmd = vim.cmd
 local exec = vim.api.nvim_exec
 
+cmd("colorscheme catppuccin")
+
 opt.number = true
 -- opt.relativenumber = true
 opt.shell = "/bin/zsh"
