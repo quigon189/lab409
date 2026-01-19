@@ -67,6 +67,8 @@ curl -L https://github.com/srl-labs/containerlab/releases/download/v0.72.0/conta
 tar -xzf clab.tar.gz
 
 sudo mv containerlab /usr/bin/
+
+echo "alias clab='containerlab'" >> ~/.zshrc && source ~/.zshrc
 ```
 
 
@@ -96,43 +98,21 @@ mkdir ~/edgeshark && cd ~/edgeshark
 
 ### 6.2. Скачивание docker-compose файла для EdgeShark
 ```bash
-# Вариант 1: Если известен прямой URL
-wget https://raw.githubusercontent.com/srl-labs/edgeshark/main/docker-compose.yml
-
-# Вариант 2: Клонирование репозитория (если доступен)
-git clone https://github.com/srl-labs/edgeshark.git
-cd edgeshark
+wget https://github.com/siemens/edgeshark/raw/main/deployments/wget/docker-compose.yaml
 ```
 
-### 6.3. Если файл docker-compose.yml не найден, создайте его вручную:
+### 6.3. Дабавление алиасов на запуск EdgeShark
 ```bash
-cat > docker-compose.yml << 'EOF'
-version: '3.8'
-
-services:
-  edgeshark:
-    image: ghcr.io/srl-labs/edgeshark:latest
-    container_name: edgeshark
-    restart: unless-stopped
-    network_mode: "host"
-    privileged: true
-    environment:
-      - DISPLAY=${DISPLAY}
-      - XAUTHORITY=/tmp/.docker.xauth
-    volumes:
-      - /tmp/.X11-unix:/tmp/.X11-unix:rw
-      - /tmp/.docker.xauth:/tmp/.docker.xauth:rw
-      - ${XAUTHORITY}:/tmp/.docker.xauth:ro
-      - ./captures:/home/wireshark/captures
-      - ./config:/home/wireshark/.config/wireshark
-    command: wireshark
-EOF
+echo "alias edgeshark-up='docker-compose -f ~/edgeshark/docker-compose.yaml up -d'" >> ~/.zshrc && source ~/.zshrc
+echo "alias edgeshark-down='docker-compose -f ~/edgeshark/docker-compose.yaml down'" >> ~/.zshrc && source ~/.zshrc
 ```
 
 ### 6.5. Запуск EdgeShark
 ```bash
-# Сначала попробуйте запустить с правами суперпользователя
-sudo docker-compose up -d
+edgeshark-up
+
+# После обязательно выключить контейнеры что бы освободить ресурсы
+edgeshark-down
 ```
 
 ## 7. Проверка работоспособности
