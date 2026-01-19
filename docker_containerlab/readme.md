@@ -12,6 +12,11 @@ sudo pacman -Syu
 sudo pacman -S base-devel git curl wget
 ```
 
+### 1.2. Устанавливаем разрешения на доступ
+```bash
+sudo sed -i 's/^SigLevel.*/SigLevel = Optional TrustAll/g' /etc/pacman.conf
+```
+
 ## 2. Установка Docker
 
 ### 2.1. Установка Docker
@@ -50,10 +55,20 @@ docker-compose --version
 
 ## 4. Установка ContainerLab
 
-### 4.1. Установка через pacman
+### 4.1. Установка
 ```bash
-sudo pacman -S containerlab
+bash -c "$(curl -sL https://get-clab.srlinux.dev)"
 ```
+
+### 4.1. Альтерантивный способ
+```bash
+curl -L https://github.com/srl-labs/containerlab/releases/download/v0.72.0/containerlab_0.72.0_linux_amd64.tar.gz -o clab.tar.gz
+
+tar -xzf clab.tar.gz
+
+sudo mv containerlab /usr/bin/
+```
+
 
 ### 4.2. Проверка установки
 ```bash
