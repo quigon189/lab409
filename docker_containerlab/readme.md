@@ -115,6 +115,16 @@ edgeshark-up
 edgeshark-down
 ```
 
+### 6.6. Установка плагина scharg
+- Скачать плагин
+```bash
+wget https://raw.githubusercontent.com/siemens/cshargextcap/main/packaging/aur/PKGBUILD
+
+makepkg -s -r -c
+
+pacman -U cshargextcap-git-*.zst
+```
+
 ## 7. Проверка работоспособности
 
 ### 7.1. Проверка Docker
@@ -127,7 +137,7 @@ docker run hello-world
 containerlab inspect --version
 ```
 
-## 10. Полезные команды
+## 8. Полезные команды
 
 ```bash
 # Остановить все контейнеры
