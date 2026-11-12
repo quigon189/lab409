@@ -1,0 +1,942 @@
+[
+  {
+    "name": "Alice",
+    "email": "alice@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Bob",
+    "email": "bob@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Carol",
+    "email": "carol@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "David",
+    "email": "david@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Eve",
+    "email": "eve@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Frank",
+    "email": "frank@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Grace",
+    "email": "grace@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Henry",
+    "email": "henry@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Ivy",
+    "email": "ivy@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Jack",
+    "email": "jack@example.com",
+    "role": "student"
+  },
+  {
+    "name": "invalid.email.com",
+    "email": "invalid.email.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Kate",
+    "email": "kate@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Leo",
+    "email": "leo@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Mia",
+    "email": "mia@example.com",
+    "role": "student"
+  },
+  {
+    "name": "noatsign",
+    "email": "noatsign",
+    "role": "teacher"
+  },
+  {
+    "name": "Oliver",
+    "email": "oliver@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Penny",
+    "email": "penny@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Quinn",
+    "email": "quinn@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Ryan",
+    "email": "ryan@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "missingdomain@",
+    "email": "missingdomain@",
+    "role": "other"
+  },
+  {
+    "name": "Sophia",
+    "email": "sophia@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Thomas",
+    "email": "thomas@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Uma",
+    "email": "uma@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Victor",
+    "email": "victor@example.com",
+    "role": "other"
+  },
+  {
+    "name": "double..dots@example.com",
+    "email": "double..dots@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Wendy",
+    "email": "wendy@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Xander",
+    "email": "xander@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Yara",
+    "email": "yara@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Zane",
+    "email": "zane@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "spaces in@email.com",
+    "email": "spaces in@email.com",
+    "role": "student"
+  },
+  {
+    "name": "Aaron",
+    "email": "aaron@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Bella",
+    "email": "bella@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Caleb",
+    "email": "caleb@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Diana",
+    "email": "diana@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Ethan",
+    "email": "ethan@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Fiona",
+    "email": "fiona@example.com",
+    "role": "other"
+  },
+  {
+    "name": "George",
+    "email": "george@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Hannah",
+    "email": "hannah@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Ian",
+    "email": "ian@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "symbols!@#$@example.com",
+    "email": "symbols!@#$@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Julia",
+    "email": "julia@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Kevin",
+    "email": "kevin@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Lily",
+    "email": "lily@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Max",
+    "email": "max@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Nora",
+    "email": "nora@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Oscar",
+    "email": "oscar@example.com",
+    "role": "student"
+  },
+  {
+    "name": "missingtld@example.",
+    "email": "missingtld@example.",
+    "role": "teacher"
+  },
+  {
+    "name": "Paul",
+    "email": "paul@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Quincy",
+    "email": "quincy@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Rose",
+    "email": "rose@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Sam",
+    "email": "sam@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Tina",
+    "email": "tina@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Ulysses",
+    "email": "ulysses@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Vera",
+    "email": "vera@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Walter",
+    "email": "walter@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Xena",
+    "email": "xena@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Yves",
+    "email": "yves@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Zoe",
+    "email": "zoe@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Adam",
+    "email": "adam@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Brooke",
+    "email": "brooke@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Chris",
+    "email": "chris@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Daisy",
+    "email": "daisy@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Elvis",
+    "email": "elvis@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Faye",
+    "email": "faye@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Gus",
+    "email": "gus@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Heidi",
+    "email": "heidi@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Ivan",
+    "email": "ivan@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Jill",
+    "email": "jill@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Kurt",
+    "email": "kurt@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Lola",
+    "email": "lola@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Moe",
+    "email": "moe@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Nina",
+    "email": "nina@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Otto",
+    "email": "otto@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Pam",
+    "email": "pam@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Quinn",
+    "email": "quinn@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Rex",
+    "email": "rex@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Sue",
+    "email": "sue@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Ty",
+    "email": "ty@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Uma",
+    "email": "uma@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Vince",
+    "email": "vince@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Willa",
+    "email": "willa@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Xander",
+    "email": "xander@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Yara",
+    "email": "yara@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Zack",
+    "email": "zack@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Ava",
+    "email": "ava@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Ben",
+    "email": "ben@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Cara",
+    "email": "cara@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Dan",
+    "email": "dan@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Eva",
+    "email": "eva@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Finn",
+    "email": "finn@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Gia",
+    "email": "gia@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Hank",
+    "email": "hank@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Iris",
+    "email": "iris@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Jake",
+    "email": "jake@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Kira",
+    "email": "kira@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Luke",
+    "email": "luke@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Mia",
+    "email": "mia@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Noah",
+    "email": "noah@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Olga",
+    "email": "olga@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Pete",
+    "email": "pete@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Quincy",
+    "email": "quincy@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Rosa",
+    "email": "rosa@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Sean",
+    "email": "sean@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Tess",
+    "email": "tess@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Ugo",
+    "email": "ugo@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Vera",
+    "email": "vera@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Will",
+    "email": "will@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Xena",
+    "email": "xena@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Yuri",
+    "email": "yuri@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Zane",
+    "email": "zane@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Amy",
+    "email": "amy@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Brett",
+    "email": "brett@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Cora",
+    "email": "cora@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Drew",
+    "email": "drew@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Elle",
+    "email": "elle@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Fred",
+    "email": "fred@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Gina",
+    "email": "gina@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Hugh",
+    "email": "hugh@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Ivy",
+    "email": "ivy@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Jude",
+    "email": "jude@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Kai",
+    "email": "kai@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Lena",
+    "email": "lena@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Mark",
+    "email": "mark@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Nell",
+    "email": "nell@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Owen",
+    "email": "owen@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Paige",
+    "email": "paige@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Quinn",
+    "email": "quinn@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Ross",
+    "email": "ross@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Sasha",
+    "email": "sasha@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Troy",
+    "email": "troy@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Ursa",
+    "email": "ursa@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Vince",
+    "email": "vince@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Wendy",
+    "email": "wendy@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Xander",
+    "email": "xander@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Yara",
+    "email": "yara@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Zeke",
+    "email": "zeke@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Alice",
+    "email": "alice@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Bob",
+    "email": "bob@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Carol",
+    "email": "carol@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "David",
+    "email": "david@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Eve",
+    "email": "eve@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Frank",
+    "email": "frank@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Grace",
+    "email": "grace@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Henry",
+    "email": "henry@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Ivy",
+    "email": "ivy@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Jack",
+    "email": "jack@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Kate",
+    "email": "kate@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Leo",
+    "email": "leo@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Mia",
+    "email": "mia@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Noah",
+    "email": "noah@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Olga",
+    "email": "olga@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Paul",
+    "email": "paul@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Quinn",
+    "email": "quinn@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Rose",
+    "email": "rose@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Sam",
+    "email": "sam@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Tina",
+    "email": "tina@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Ulysses",
+    "email": "ulysses@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Vera",
+    "email": "vera@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Walter",
+    "email": "walter@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Xena",
+    "email": "xena@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Yves",
+    "email": "yves@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Zoe",
+    "email": "zoe@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Adam",
+    "email": "adam@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Brooke",
+    "email": "brooke@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Chris",
+    "email": "chris@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Daisy",
+    "email": "daisy@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Elvis",
+    "email": "elvis@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Faye",
+    "email": "faye@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Gus",
+    "email": "gus@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Heidi",
+    "email": "heidi@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Ivan",
+    "email": "ivan@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Jill",
+    "email": "jill@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Kurt",
+    "email": "kurt@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Lola",
+    "email": "lola@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Moe",
+    "email": "moe@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Nina",
+    "email": "nina@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Otto",
+    "email": "otto@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Pam",
+    "email": "pam@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Quinn",
+    "email": "quinn@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Rex",
+    "email": "rex@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Sue",
+    "email": "sue@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Ty",
+    "email": "ty@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Ursa",
+    "email": "ursa@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Vince",
+    "email": "vince@example.com",
+    "role": "other"
+  },
+  {
+    "name": "Wendy",
+    "email": "wendy@example.com",
+    "role": "admin"
+  },
+  {
+    "name": "Xander",
+    "email": "xander@example.com",
+    "role": "student"
+  },
+  {
+    "name": "Yara",
+    "email": "yara@example.com",
+    "role": "teacher"
+  },
+  {
+    "name": "Zeke",
+    "email": "zeke@example.com",
+    "role": "other"
+  }
+]
